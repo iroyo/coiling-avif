@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.coil.compose)
+    implementation(libs.coil.okhttp)
     debugImplementation(libs.androidx.ui.tooling)
 
 }

@@ -5,10 +5,11 @@ coreKtx = "1.12.0"
 lifecycleRuntimeKtx = "2.6.1"
 activityCompose = "1.8.0"
 composeBom = "2024.03.00"
-coil-version = "2.7.0"
+coil-version = "3.0.0-alpha09"
 
 [libraries]
-coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-version" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil-version" }
+coil-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coil-version" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
